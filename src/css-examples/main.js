@@ -4,9 +4,8 @@ import { setupCounter } from "./counter.js";
 
 document.querySelector("#app").innerHTML = `
   <div>
-    <h1>CSS Examples</h1>
     <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-      <img src="${cssLogo}" class="logo vanilla" alt="CSS logo" />
+      <img src="${cssLogo}" class="logo" alt="CSS logo" />
     </a>
   </div>
 `;
