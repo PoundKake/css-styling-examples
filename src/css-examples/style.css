@@ -13,15 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
   display: flexbox;
@@ -45,17 +36,34 @@ h1 {
   text-align: center;
 }
 
-.logo {
+.glow {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+.glow:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
+
+.scale-increase {
+  height: 6em;
+  padding: 1.5em;
+  transition: transform 300ms;
+}
+
+.scale-increase:hover {
+  transform: scale(1.5);
+}
+
+.scale-decrease {
+  height: 6em;
+  padding: 1.5em;
+  transition: transform 300ms;
+}
+
+.scale-decrease:hover {
+  transform: scale(0.5);
 }
 
 @media (prefers-color-scheme: light) {
